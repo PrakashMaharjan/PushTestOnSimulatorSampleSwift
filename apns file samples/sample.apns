@@ -1,0 +1,8 @@
+{
+    "Simulator Target Bundle": "com.pm.SimulatorPushNotificationTesting",
+    "aps":{
+        "alert":"Test drop",
+        "sound":"default",
+        "badge":3
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Simulator Target Bundle" : "com.pm.SimulatorPushNotificationTesting",
+    "aps" :
+    {
+        "alert" : "THis is a test payload"
+        
+    }
+}
+

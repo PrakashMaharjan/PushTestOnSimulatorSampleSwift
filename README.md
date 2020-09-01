@@ -3,7 +3,7 @@ Basic setup for push notification testing on iOS simulator
 
 This is sample Xcode project with basic setup for testing push notification on iOS Simulator.
 The project is build on Swift language.
-In order to test push notificcation on simulator just build and run the project on iOS Simulator. Tap 'Allow' to receive push on permission.
+In order to test push notification on simulator just build and run the project on iOS Simulator. Tap 'Allow' to receive push on permission.
 Then drag any of the .apns file to simulator that is available inside 'apns file samples' folder attached along with this project.
 You should see push banner on iOS simulator.
 

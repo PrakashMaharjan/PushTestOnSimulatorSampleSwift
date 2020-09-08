@@ -13,6 +13,9 @@
 		16B91D5E24FCBF8500E8198D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B91D5C24FCBF8500E8198D /* Main.storyboard */; };
 		16B91D6024FCBF8800E8198D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B91D5F24FCBF8800E8198D /* Assets.xcassets */; };
 		16B91D6324FCBF8800E8198D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B91D6124FCBF8800E8198D /* LaunchScreen.storyboard */; };
+		16FC247E2507DEDD00B9C221 /* christmas.caf in Resources */ = {isa = PBXBuildFile; fileRef = 16FC247D2507DEDC00B9C221 /* christmas.caf */; };
+		16FC24802507DF3C00B9C221 /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 16FC247F2507DF3C00B9C221 /* guitar.wav */; };
+		16FC24822507E18800B9C221 /* metal.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 16FC24812507E18800B9C221 /* metal.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		16B91D5F24FCBF8800E8198D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16B91D6224FCBF8800E8198D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16B91D6424FCBF8800E8198D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FC247D2507DEDC00B9C221 /* christmas.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = christmas.caf; sourceTree = "<group>"; };
+		16FC247F2507DF3C00B9C221 /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		16FC24812507E18800B9C221 /* metal.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = metal.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		16B91D5524FCBF8500E8198D /* SimulatorPushNotificationTesting */ = {
 			isa = PBXGroup;
 			children = (
+				16FC24832507E1FF00B9C221 /* Sounds */,
 				16B91D5624FCBF8500E8198D /* AppDelegate.swift */,
 				16B91D5824FCBF8500E8198D /* SceneDelegate.swift */,
 				16B91D5A24FCBF8500E8198D /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				16B91D6424FCBF8800E8198D /* Info.plist */,
 			);
 			path = SimulatorPushNotificationTesting;
+			sourceTree = "<group>";
+		};
+		16FC24832507E1FF00B9C221 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				16FC24812507E18800B9C221 /* metal.aiff */,
+				16FC247D2507DEDC00B9C221 /* christmas.caf */,
+				16FC247F2507DF3C00B9C221 /* guitar.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FC24802507DF3C00B9C221 /* guitar.wav in Resources */,
 				16B91D6324FCBF8800E8198D /* LaunchScreen.storyboard in Resources */,
 				16B91D6024FCBF8800E8198D /* Assets.xcassets in Resources */,
 				16B91D5E24FCBF8500E8198D /* Main.storyboard in Resources */,
+				16FC247E2507DEDD00B9C221 /* christmas.caf in Resources */,
+				16FC24822507E18800B9C221 /* metal.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

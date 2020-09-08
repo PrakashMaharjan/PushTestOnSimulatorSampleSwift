@@ -2,7 +2,7 @@
     "Simulator Target Bundle" : "com.pm.SimulatorPushNotificationTesting",
     "aps" :
     {
-        "alert" : "THis is a test payload"
+        "alert" : "This is a test payload"
         
     }
 }

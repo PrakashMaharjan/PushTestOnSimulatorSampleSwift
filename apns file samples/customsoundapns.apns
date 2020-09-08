@@ -1,0 +1,8 @@
+{
+    "Simulator Target Bundle": "com.pm.SimulatorPushNotificationTesting",
+    "aps":{
+        "alert":"This is push notification.",
+        "sound":"metal.aiff",
+        "badge":1
+    }
+}

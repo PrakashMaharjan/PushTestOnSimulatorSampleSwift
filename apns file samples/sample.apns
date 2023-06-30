@@ -1,8 +1,13 @@
+
 {
     "Simulator Target Bundle": "com.pm.SimulatorPushNotificationTesting",
     "aps":{
-        "alert":"This is push notification.",
-        "sound":"default",
-        "badge":3
+        "alert": {
+            "title" : "This is push title.",
+            "body" : "This is push subtitle."
+        },
+        "sound" : "default",
+        "badge" : 3
     }
 }
+

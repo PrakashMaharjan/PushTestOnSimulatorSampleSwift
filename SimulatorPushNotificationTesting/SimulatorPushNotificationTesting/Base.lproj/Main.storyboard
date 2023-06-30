@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,19 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push Notification Testing on Simulator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2od-g6-7bf">
-                                <rect key="frame" x="27.5" y="89" width="359" height="80"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push Notification Testing on Simulator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2od-g6-7bf">
+                                <rect key="frame" x="27.5" y="93" width="359" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="45j-I8-MS2"/>
+                                    <constraint firstAttribute="height" constant="80" id="e87-VQ-iju"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fx0-9k-ume">
-                                <rect key="frame" x="6.5" y="169" width="401.5" height="199"/>
+                                <rect key="frame" x="16" y="173" width="382" height="190"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="199" id="hJF-Sp-azE"/>
+                                    <constraint firstAttribute="height" constant="190" id="UP1-VP-Tkf"/>
                                 </constraints>
                                 <string key="text">- Run the project on simulator.
 
@@ -45,14 +45,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2od-g6-7bf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="35W-Dg-Lkw"/>
-                            <constraint firstItem="fx0-9k-ume" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3JG-RZ-PaV"/>
-                            <constraint firstItem="2od-g6-7bf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="6aG-bd-JXv"/>
-                            <constraint firstItem="fx0-9k-ume" firstAttribute="top" secondItem="2od-g6-7bf" secondAttribute="bottom" id="Rrm-MR-u6J"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fx0-9k-ume" secondAttribute="trailing" id="Sz8-he-d0b"/>
-                            <constraint firstItem="2od-g6-7bf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YeV-NQ-zk3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2od-g6-7bf" secondAttribute="trailing" id="dKz-fW-Tcw"/>
-                            <constraint firstItem="fx0-9k-ume" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qS5-Z7-230"/>
+                            <constraint firstItem="fx0-9k-ume" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6BU-Vm-m7p"/>
+                            <constraint firstItem="fx0-9k-ume" firstAttribute="top" secondItem="2od-g6-7bf" secondAttribute="bottom" id="9Tf-v8-bNe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2od-g6-7bf" secondAttribute="trailing" id="CLz-cl-qDl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fx0-9k-ume" secondAttribute="trailing" constant="16" id="D2e-vU-iNA"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fx0-9k-ume" secondAttribute="trailing" id="i3x-2u-lvT"/>
+                            <constraint firstItem="2od-g6-7bf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="mJJ-dm-7Mg"/>
+                            <constraint firstItem="2od-g6-7bf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sjp-k4-WA8"/>
+                            <constraint firstItem="2od-g6-7bf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vAL-lg-NcR"/>
+                            <constraint firstItem="fx0-9k-ume" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vkt-Jn-a5O"/>
                         </constraints>
                     </view>
                 </viewController>
